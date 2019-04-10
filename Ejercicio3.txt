@@ -1,0 +1,13 @@
+Ejercicio
+
+1.	Crear un nuevo proyecto React mediante npm.
+2.	Crear dos componentes UserInput y UserOutput.
+3.	UserInput presenta un elemento input, y UserOutput dos párrafos.
+4.	En el componente principal App, muestra varios componentes UserOutput.
+5.	Pasa un username a UserOutput mediante props y visualízalo en uno de los dos párrafos.
+6.	Crea un estado en App con un atributo username y pásalo al componente UserOutput.
+7.	Añade un método para manipular el estado.
+8.	Pasa el método al componente UserInput y átalo (bind) al evento input-change.
+9.	Asegúrate de que cuando el usuario inserta algo en el input, se sobreescribe en UserOutput.
+10.	Añade two-way binding al input para que muestre el valor inicial que tiene el estado.
+11.	Añade estilos de tu gusto a los elementos: utiliza Bootstrap.
